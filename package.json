@@ -1,0 +1,23 @@
+{
+  "name": "push_notification",
+  "version": "1.0.0",
+  "description": "Generic push notification system with full compatibility support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Raul Rodriguez Proenza",
+    "email": "raul.r.proenza@gmail.com",
+    "url": "http://englishcuttingsoftware.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rproenza86/push_notification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rproenza86/push_notification/issues"
+  },
+  "homepage": "https://github.com/rproenza86/push_notification",
+  "license": "ISC"
+}
