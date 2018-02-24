@@ -2,9 +2,12 @@
   "name": "push_notification",
   "version": "1.0.0",
   "description": "Generic push notification system with full compatibility support",
-  "main": "index.js",
+  "main": "client/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd client && polymer test",
+    "start": "cd client && polymer serve",
+    "start-build": "cd client && polymer serve build/es5-bundled",
+    "build-es5": "cd client && polymer build --preset es5-bundled"
   },
   "author": {
     "name": "Raul Rodriguez Proenza",
